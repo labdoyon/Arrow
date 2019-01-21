@@ -1,0 +1,21 @@
+# Video to Touchscreen Association File for Elo Touchscreens.
+# File to link USB touchscreens with available video monitors.
+# Update this file and restart the computer to take effect.
+#
+#  *** IMPORTANT: All video screens have to be listed in this file. *** 
+#
+# Association record syntax is shown below.
+# Video Number, Touchscreen Serial Number
+#
+# Example association records are shown below:
+#
+# Video Screen 0 associated with USB Touchscreen Serial Number 12A34567
+# 0, 12A34567
+#
+# Video Screen 1 associated with no USB Touchscreen
+# 1, N
+#
+0, N 
+1, None 
+#
+# End of File 

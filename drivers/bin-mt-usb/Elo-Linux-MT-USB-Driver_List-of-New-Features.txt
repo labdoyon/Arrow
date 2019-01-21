@@ -1,0 +1,79 @@
+================================================================================    
+
+                       Elo Touchscreen Linux Driver - MT-USB 
+
+                  Intel i686 (32 bit) or AMD64/Intel (64 bit)
+       
+                         List of New Features & Changes
+
+--------------------------------------------------------------------------------               
+
+                                 Version 2.0.0 
+                               February 20, 2014
+                              Elo Touch Solutions
+
+================================================================================    
+
+Summary of new features & changes in driver v2.0.0 :
+----------------------------------------------------
+
+  1. Added support for Intellitouch Plus and iTouch Plus products that provide 
+     dual touch capability based on the 2515-07(non HID), 2521(HID) and 
+     2515-00(HID) controllers.
+
+  2. Added support for various multitouch PCAP products (2 touch, 4 touch and 
+     10 touch controllers).
+
+  3. Added commandline and GUI control panel utilities (cplcmd and cpl). 
+
+
+
+================================================================================    
+
+
+
+
+Previous Versions:
+------------------
+================================================================================
+
+                                 Version 1.0.0 
+                                August 26, 2013
+                              Elo Touch Solutions
+
+================================================================================  
+
+Summary of new features & changes in driver v1.0.0 :
+----------------------------------------------------
+
+  1. Added support for Linux Multi Touch protocol to send multitouch events to 
+     the Linux kernel(2.6.38 or 3.x.x). The primary touch events are used to 
+     generate pointer events(emulation) to work with existing application.
+ 
+  2. Added support for older Linux kernels(2.6.x) that do not support the new 
+     Linux Multi Touch protocol, to send single touch events instead. The 
+     primary touch events are only reported to the system, while the other 
+     touches are discarded. 
+
+  3. Added support for Intellitouch Plus and iTouch Plus products that provide 
+     dual touch capability based on the 2515-07 controller. 
+
+
+
+Known Issues in driver v1.0.0 :
+-------------------------------
+
+  1. In some older Linux distributions(example: SLES 11, kernel: 2.6.27.x) the 
+     pointer is not aligned properly with the touch location, even after 
+     calibration.
+
+
+
+
+================================================================================    
+
+                       Copyright (c) 2014 Elo Touch Solutions
+
+                              All rights reserved.
+
+================================================================================   
